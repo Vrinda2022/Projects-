@@ -8,11 +8,11 @@ Develop and deploy a simple token on a blockchain platform, such as creating an 
 
 ## Getting Started
 
-## Installing
+### Installing
 
 You can download the content of this code through the copy raw file option on github or download the whole repository through the Download ZIP file option.
 
-# Executing program
+### Executing program
 
 * The Program can be executed by copying the code and paste it in the remix workspace.
 * After pasteing the code you can go to the solidity symbol on the left hand side tool bar and click on compile code.
