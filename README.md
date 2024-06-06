@@ -31,3 +31,7 @@ function mint (address ID, uint value) public {
 
 Vrinda
 https://www.linkedin.com/in/vrinda-mittal-415595265/
+
+## License
+
+This project is licensed under the [VRINDA] License - see the LICENSE.md file for details 
