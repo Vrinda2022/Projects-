@@ -19,10 +19,29 @@ You can download the content of this code through the copy raw file option on gi
 * Click on the ethereum sign and there you have to click on deploy.
 * Then the code will be ready for tansactions.
 ```
-function mint (address ID, uint value) public {
+pragma solidity ^0.8.7;
+
+contract Together {
+
+    string public tokenName = "EvoCoin";
+    string public tokenAbbrv = "EVC";
+    uint public totalSupply = 0;
+
+    mapping (address => uint) public balances;
+
+    function mint (address ID, uint value) public {
         totalSupply += value;
         balances[ID] += value;
     }
+
+    function burn (address id, uint _value) public {
+        if (balances[id] >= _value) {
+            totalSupply -= _value;
+            balances[id] -= _value;
+        }
+    }
+
+}
 ```
 * Click on the mint function to mint some amount into any address provided my you.
 * Click on transact to see your changes.
@@ -30,8 +49,9 @@ function mint (address ID, uint value) public {
 ## Authors
 
 Vrinda
+
 https://www.linkedin.com/in/vrinda-mittal-415595265/
 
 ## License
 
-This project is licensed under the [VRINDA] License - see the LICENSE.md file for details 
+This project is licensed under the MIT License - see the LICENSE.md file for details 
