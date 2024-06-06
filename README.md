@@ -14,7 +14,7 @@ You can download the content of this code through the copy raw file option on gi
 
 ### Executing program
 
-* The Program can be executed by copying the code and paste it in the remix workspace.
+* The Program can be executed by copying the code and paste it in the remix workspace at https://remix.ethereum.org/.
 * After pasteing the code you can go to the solidity symbol on the left hand side tool bar and click on compile code.
 * Click on the ethereum sign and there you have to click on deploy.
 * Then the code will be ready for tansactions.
